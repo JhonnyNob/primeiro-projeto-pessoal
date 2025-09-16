@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Como Silksong quebrou a internet</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: 
+  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+  url(": cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ 
+}
+
+#title-header {
+    border: 1rem solid rgba(0, 0, 0, 0);
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* só cuida da section */
+    align-items: center;
+    padding: 2rem;
+    max-width: 40rem; /* largura máxima do conteúdo */
+    margin: 0 auto;   /* centraliza o main */
+    position: relative;
+}
+
+main aside {
+    position: absolute;
+    right: -25rem;   /* controla a distância do lado direito */
+    top: 10;
+    width: 7rem;
+
+    /* estilo de "caixinha" */
+    background-color: rgba(0,0,0,0.1); 
+    border-radius: 0.75rem;               /* cantos arredondados */
+    box-shadow: 0 0.25rem 0.9375rem rgba(0,0,0,0.1); /* sombra leve */
+    padding: 1rem;                        /* espaço interno */
+    text-align: center;                   /* centraliza conteúdo dentro */
+}
+
+.sub-title-header{
+    padding: 2rem;
+    text-align: center;
+}
+
+.secao{
+    text-align: center;
+    gap: 1rem;
+    box-shadow: 0 0.25rem 0.9375rem rgba(0,0,0,0.08);
+    border-radius: 0.75rem;
+    width: 50rem;
+    padding: 1.875rem;
+    
+}
+
+nav {
+    display: flex;
+    gap: 15px; /* espaço entre os botões */
+    justify-content: center;
+    margin: 10px 0;
+}
+
+nav a {
+    padding: 5px 10px;
+    background-color: #4b5563;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+nav a:active {
+    background-color: #222;
+}
+
+footer{
+    border: 0,5rem solid rgba(0, 0, 0, 0);
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+}
+        </style>
+    </head>
+
+    <body> 
+
+        <header id="title-header">
+
+            <h1>Silksong: o canto que ecoou na industria de games</h1>
+            <p>Quando o Tempo Vale Mais que a Pressa</p>
+
+            <nav>
+                <a href="#secao1">O início</a>
+                <a href="#secao2">Silksong</a>
+                <a href="#secao3">Impacto</a>
+            </nav>
+
+        </header>
+
+        <main>
+            <article>
+                <header class="sub-title-header">
+                    <h2>O que é Hollow Knight?</h2>
+                </header>
+
+                    <section class="secao" id="secao1">
+                        <p>Lançado em 2017, Hollow Knight rapidamente se tornou um dos jogos independentes mais importantes da última década. Criado pelo pequeno estúdio australiano Team Cherry, formado por apenas três desenvolvedores, o jogo conquistou fãs e crítica com sua combinação única de gameplay desafiador, mundo rico em detalhes e direção artística impecável.
+
+                        Em um mercado cada vez mais dominado por grandes empresas, Hollow Knight provou que um time pequeno, com tempo e dedicação, podia criar algo à altura (ou até superior) de muitos AAA. O jogo vendeu milhões de cópias, acumulou prêmios e construiu uma comunidade apaixonada, que ficou ansiosa por novidades do estúdio.</p>
+                    </section>
+                
+
+                <header class="sub-title-header">
+                    <h2>Por que Silksong era tão aguardado?</h2>
+                </header>
+
+                    <section class="secao" id="secao2">
+                        <p>Silksong começou como uma simples expansão de Hollow Knight, mas com o tempo cresceu tanto que virou uma sequência completa. O anúncio em 2019 pegou todos de surpresa e gerou uma onda de expectativas.
+
+                        Mas não foi apenas o hype natural por uma continuação. Os jogadores sabiam que a Team Cherry levava tempo para lapidar cada detalhe. Em uma indústria marcada por lançamentos apressados e jogos inacabados, esperar por Silksong se tornou um símbolo: os fãs estavam dispostos a aguardar porque confiavam que o resultado valeria a pena.
+
+                        A cada ano de silêncio, a curiosidade só aumentava. Fóruns, canais no YouTube e até veículos de imprensa especializada comentavam a ausência de novidades. O jogo virou praticamente uma “lenda” da internet, sempre lembrado em eventos como a E3 ou o The Game Awards, mesmo sem aparecer oficialmente.</p>
+                    </section>
+                
+
+                <header class="sub-title-header">
+                    <h2>Como o sucesso de Silksong abalou a indústria dos jogos</h2>
+                </header>
+
+                    <section class="secao" id="secao3">
+                        Quando finalmente chegou ao mercado, Silksong não só atendeu às expectativas — ele as superou. Recebendo nota 100 no Metacritic, algo extremamente raro na indústria, o jogo se consolidou como um marco.
+
+                        Mas o que realmente abalou a indústria não foi só a qualidade em si, e sim o contexto:
+
+                        O jogo teve um preço justo, acessível para o público, em contraste com títulos de grandes empresas vendidos por valores altos, mesmo quando chegam cheios de bugs.
+
+                        O desenvolvimento levou tempo, mas isso se traduziu em um jogo refinado, sem pressa, cheio de identidade e cuidado.
+
+                        O sucesso provou que carinho e dedicação importam mais do que cronogramas apressados.
+
+                        O impacto de Silksong foi um lembrete para toda a indústria: jogadores estão dispostos a esperar por qualidade, e que não basta lançar rapidamente para lucrar. O triunfo da Team Cherry mostrou que mesmo um pequeno estúdio pode ditar o rumo das conversas sobre o futuro dos games.
+
+                        Em um momento em que muitos consumidores estão cansados de promessas vazias e decepções no lançamento, Silksong se tornou um farol de esperança — um exemplo de que tempo e paixão podem resultar em algo inesquecível.
+                    </section>
+
+            </article>
+
+            <aside>
+                    <h2>Leia também</h2>
+                    <ul>
+                        <li><a href="https://atorredecontrole.com.br/2019/03/14/a-historia-de-hollow-knight/" target="_blank">A historia de Hollow Knight</a></li>
+                        <li><a href="https://pt.wikipedia.org/wiki/Metroidvania" target="_blank">Metroidvania: o gênero explicado</a></li>
+                    </ul>
+            </aside>
+
+        </main>
+
+        <footer>
+            <p>Para adquerir Hollow Knight Silksong <a href="https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/" target="_blank"> clique aqui.</a></p>
+        </footer>
+
+    </body>
+
+</html>
